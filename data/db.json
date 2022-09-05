@@ -1,17 +1,22 @@
 {
-    "blogs": 
-    [
-        {
-            "title": "My first blog",
-            "body": "why do we use it? readers are leaders of the world",
-            "author": "mario",
-            "id": 1
-        },
-         {
-            "title": "Tech monopoly",
-            "body": "Is Tech the savior? find out from successful programmers and researchers",
-            "author": "reeba",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My first blog",
+      "body": "why do we use it? readers are leaders of the world",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Tech monopoly",
+      "body": "Is Tech the savior? find out from successful programmers and researchers",
+      "author": "reeba",
+      "id": 2
+    },
+    {
+      "title": "ytytuuy",
+      "body": "rrddff",
+      "author": "reedddrrrr",
+      "id": 3
+    }
+  ]
 }
