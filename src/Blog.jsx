@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 
 const Blog = () => {
   const [title, setTitle] = useState('')
   const [body, setBody] = useState('')
   const [author, setAuthor] = useState('')
   const [isPending, setIsPending] = useState('false')
+  const redirect = useHistory()
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -20,6 +22,7 @@ const Blog = () => {
       console.log('new blog created')
       setIsPending(true)
     })
+    redirect.push('/')
   }
   return (
     <div className="create">
